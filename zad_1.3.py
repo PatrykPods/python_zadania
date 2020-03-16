@@ -14,4 +14,4 @@ if BMI >= 18.5 and BMI <= 24.99:
 if BMI >= 25 and BMI <= 29.99:
     print("masz nadwage")
 if BMI >= 30:
-    print("masz otylosc")
+    print("masz otylosc, przestan jesc w maku!")
