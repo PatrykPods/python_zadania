@@ -5,7 +5,10 @@ działanie = input("jakie działanie chcesz wykonać?:")
 if działanie == "*" :
     print(pierwsza_liczba * druga_liczba)
 elif działanie == "/" :
-    print(pierwsza_liczba / druga_liczba)
+    if druga_liczba == 0:
+        print("nie dzielimy przez 0")
+    else:
+        print(pierwsza_liczba / druga_liczba)
 elif działanie == "-" :
     print(pierwsza_liczba - druga_liczba)
 elif działanie == "+" :
