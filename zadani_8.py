@@ -1,6 +1,6 @@
-a = int(input("podaj dlugosc opakowania:"))
-b = int(input("podaj szerokosc opakowania:"))
-h = int(input("podaj wysokosc opakowania:"))
+a = float(input("podaj dlugosc opakowania:"))
+b = float(input("podaj szerokosc opakowania:"))
+h = float(input("podaj wysokosc opakowania:"))
 
 objetosc = (a * b) * h
 print(f""" objetosc opakowania to: {objetosc} cm3
