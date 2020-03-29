@@ -1,4 +1,4 @@
-list = []
+list_ = []
 while len(list) < 10:
     number = int(input("podaj liczbe:"))
     list.append(number)
