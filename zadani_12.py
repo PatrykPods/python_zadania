@@ -1,4 +1,4 @@
-x = 8
+x = 7
 temp = 0
 while x > 0:
     temperature = float(input("podaj temperaturę w kolejnych dniach tygodnia zaczynając od poniedziałku:"))
